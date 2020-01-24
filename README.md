@@ -1,2 +1,3 @@
-# arduino-examples
-Arduino example code.
+# Arduino Sketch Examples
+
+Example sketches for Arduino. Includes Motor, Sensor, and Servo demos. 
