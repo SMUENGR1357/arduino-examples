@@ -20,7 +20,7 @@ void loop() {
   /* Example of starting motors (they will run until you tell them to stop!) */
   robot->pcaDC2Motors(
     /* Motor 1 ID and Speed */ LEFT_MOTOR_ID, LEFT_MOTOR_SPEED, 
-    /* Motor 2 ID and Speed */ RIGHT_MOTOR_ID, RIGHT_MOTOR_PIN );
+    /* Motor 2 ID and Speed */ RIGHT_MOTOR_ID, RIGHT_MOTOR_SPEED );
   
   /* Stop left motor, then right motor */
   robot->pcaStop( LEFT_MOTOR_ID );
@@ -32,7 +32,7 @@ void loop() {
   /* Run left and right motors for five seconds (they will stop automatically after that time) */
   robot->pcaDC2MotorsTime(
     /* Motor 1 ID and Speed */ LEFT_MOTOR_ID, LEFT_MOTOR_SPEED, 
-    /* Motor 2 ID and Speed */ RIGHT_MOTOR_ID, RIGHT_MOTOR_PIN,
+    /* Motor 2 ID and Speed */ RIGHT_MOTOR_ID, RIGHT_MOTOR_SPEED,
     /* Time (in milliseconds) to run motor */ 5000 );
 
   /* Delay infinitely... */
